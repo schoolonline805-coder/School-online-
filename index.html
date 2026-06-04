@@ -1,108 +1,270 @@
-<nav<nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Online School | Primary, Secondary & University Education</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+    line-height:1.6;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+nav{
+    background:#0055a5;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+nav ul li{
+    position:relative;
+}
+
+nav ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px 18px;
+}
+
+nav ul li:hover{
+    background:#003f7d;
+}
+
+nav ul li ul{
+    display:none;
+    position:absolute;
+    background:#0055a5;
+    min-width:220px;
+    z-index:1000;
+}
+
+nav ul li:hover ul{
+    display:block;
+}
+
+nav ul li ul li{
+    width:100%;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:10px;
+}
+
+h2{
+    color:#003366;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Global Online School</h1>
+    <p>Primary • Secondary • University</p>
+</header>
+
+<nav>
 <ul>
 
-    <li><a href="#">Home</a></li>
+<li><a href="#home">Home</a></li>
 
-    <li>
-        <a href="#">About Us</a>
-        <ul>
-            <li><a href="#">School Profile</a></li>
-            <li><a href="#">Vision</a></li>
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Core Values</a></li>
-            <li><a href="#">Teachers & Staff</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#about">About Us</a>
+<ul>
+<li><a href="#profile">School Profile</a></li>
+<li><a href="#vision">Vision</a></li>
+<li><a href="#mission">Mission</a></li>
+<li><a href="#staff">Teachers & Staff</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Academics</a>
-        <ul>
-            <li><a href="#">Primary Education</a></li>
-            <li><a href="#">Secondary Education</a></li>
-            <li><a href="#">University Education</a></li>
-            <li><a href="#">Online Learning</a></li>
-            <li><a href="#">Academic Calendar</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#academics">Academics</a>
+<ul>
+<li><a href="#">Primary Education</a></li>
+<li><a href="#">Secondary Education</a></li>
+<li><a href="#">University Education</a></li>
+<li><a href="#">Online Learning</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Admissions</a>
-        <ul>
-            <li><a href="#">Application Form</a></li>
-            <li><a href="#">Admission Requirements</a></li>
-            <li><a href="#">Fees Structure</a></li>
-            <li><a href="#">Scholarships</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#admissions">Admissions</a>
+<ul>
+<li><a href="#">Application Form</a></li>
+<li><a href="#">Requirements</a></li>
+<li><a href="#">Fees Structure</a></li>
+<li><a href="#">Scholarships</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Students</a>
-        <ul>
-            <li><a href="#">Student Portal</a></li>
-            <li><a href="#">Results</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">Assignments</a></li>
-            <li><a href="#">Learning Resources</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#students">Students</a>
+<ul>
+<li><a href="#">Student Portal</a></li>
+<li><a href="#">Downloads</a></li>
+<li><a href="#">Academic Calendar</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Finance</a>
-        <ul>
-            <li><a href="#">Online Payments</a></li>
-            <li><a href="#">Payment Verification</a></li>
-            <li><a href="#">Student Financial Account</a></li>
-            <li><a href="#">Donations</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#finance">Finance</a>
+<ul>
+<li><a href="#">Online Payments</a></li>
+<li><a href="#">Payment Verification</a></li>
+<li><a href="#">Student Financial Account</a></li>
+<li><a href="#">Donations</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Media Center</a>
-        <ul>
-            <li><a href="#">News & Events</a></li>
-            <li><a href="#">Announcements</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Videos</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#media">Media</a>
+<ul>
+<li><a href="#">News & Events</a></li>
+<li><a href="#">Gallery</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Policies</a>
-        <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Disclaimer</a></li>
-        </ul>
-    </li>
+<li>
+<a href="#policies">Policies</a>
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Disclaimer</a></li>
+</ul>
+</li>
 
-    <li>
-        <a href="#">Contact Us</a>
-        <ul>
-            <li>
-                <a href="tel:+255610983928">
-                    📞 +255 610 983 928
-                </a>
-            </li>
-
-            <li>
-                <a href="mailto:schoolonline805@gmail.com">
-                    ✉️ schoolonline805@gmail.com
-                </a>
-            </li>
-
-            <li>
-                <a href="https://wa.me/255610983928">
-                    WhatsApp Support
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    📍 World Education level 
-                </a>
-            </li>
-        </ul>
-    </li>
+<li>
+<a href="#contact">Contact Us</a>
+<ul>
+<li><a href="tel:+255610983928">Phone</a></li>
+<li><a href="mailto:schoolonline805@gmail.com">Email</a></li>
+<li><a href="#">Location</a></li>
+</ul>
+</li>
 
 </ul>
-</nav>￼Enter
+</nav>
+
+<section id="home">
+<h2>Welcome to Global Online School</h2>
+<p>
+Global Online School is a modern digital learning platform providing
+quality education for Primary, Secondary, and University students.
+Our online system enables learners to access lessons, assignments,
+learning resources, and academic support from anywhere.
+</p>
+</section>
+
+<section id="profile">
+<h2>School Profile</h2>
+<p>
+Global Online School is committed to delivering high-quality education
+through innovative technology and modern teaching methods.
+</p>
+</section>
+
+<section id="vision">
+<h2>Vision</h2>
+<p>
+To become a leading global center of online education, innovation,
+and academic excellence.
+</p>
+</section>
+
+<section id="mission">
+<h2>Mission</h2>
+<p>
+To provide accessible, affordable, and high-quality education that
+empowers learners with knowledge, skills, creativity, and values
+needed for future success.
+</p>
+</section>
+
+<section id="academics">
+<h2>Academic Levels</h2>
+<ul>
+<li>Primary Education</li>
+<li>Secondary Education</li>
+<li>University Education</li>
+<li>Online Learning Programs</li>
+</ul>
+</section>
+
+<section id="admissions">
+<h2>Admissions</h2>
+<p>
+Applications are open throughout the year for eligible students.
+Please review admission requirements before applying.
+</p>
+</section>
+
+<section id="students">
+<h2>Student Services</h2>
+<p>
+Students can access learning materials, assignments, academic calendars,
+downloads, and support services through the student portal.
+</p>
+</section>
+
+<section id="finance">
+<h2>Finance</h2>
+<p>
+Secure online payment options, fee structures, scholarship information,
+and donation opportunities are available.
+</p>
+</section>
+
+<section id="media">
+<h2>News & Media</h2>
+<p>
+Stay updated with school announcements, events, educational news,
+photos, and other activities.
+</p>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p><strong>Phone:</strong> +255 610 983 928</p>
+<p><strong>Email:</strong> schoolonline805@gmail.com</p>
+</section>
+
+<footer>
+<p>&copy; 2026 Global Online School. All Rights Reserved.</p>
+</footer>
+
+</body>
+    </html￼Enter
